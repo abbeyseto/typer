@@ -14,7 +14,7 @@
 
 Typer.js is an easy to use, choc-full-of-options, robust automated typing library. There are a number of [methods](#methods) with various options for you to impress your friends, have a parade thrown in your name, and officially obtain "that guy" status ("that gal" for the ladies).
 
-Typer.js has **no library dependencies** so just slap it on your page and go. We still love you, [jQuery](https://cdnjs.com/libraries/jquery/). And the minified file is only 4k gzipped!
+Typer.js has **no library dependencies** so just slap it on your page and go. We still love you, [jQuery](https://cdnjs.com/libraries/jquery/). And the minified file is only 4k gzipped!.
 
 In short... Typer.js can type regular characters, [unicode](http://dev.w3.org/html5/html-author/charref) [characters](http://unicode-table.com/en/), whole words, half words, HTML elements, erase stuff, go fast, go slow, make new lines, fire events, listen to events, run functions, and make julienne fries in minutes.
 
@@ -199,7 +199,7 @@ The `.cursor` method takes a single argument: `false` _or_ `{an: object}`. You c
 .cursor({color: 'rgba(255,0,0,0.7)'});
 ```
 
-*   You can specify any css color you want via any method (i.e. name, rgb, hsla, etc.).
+*   You can also specify any css color you want via any method (i.e. name, rgb, hsla, etc.).
 *   As a default, Typer will grab the color attribute of the parent element and use that for the cursor color to match the text with the cursor.
 
 #### _all options at once_
